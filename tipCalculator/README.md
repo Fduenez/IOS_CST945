@@ -3,7 +3,7 @@
 
 **Tip Calculator* is a tip calculator application for iOS.
 
-Submitted by: **Your Name**
+Submitted by: **Frank Duenez**
 
 Time spent: **x** hours spent in total
 
@@ -11,7 +11,7 @@ Time spent: **x** hours spent in total
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
 * [ ] Settings page to change the default tip percentage.
@@ -39,7 +39,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## License
 
-Copyright [Year] [Your name]
+Copyright [2019] [Frank Duenez]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
