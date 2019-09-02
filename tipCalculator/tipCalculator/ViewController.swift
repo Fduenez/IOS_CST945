@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var billAmount: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.billAmount.becomeFirstResponder();
         // Do any additional setup after loading the view.
     }
 
