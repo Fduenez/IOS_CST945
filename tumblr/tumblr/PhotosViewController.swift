@@ -61,7 +61,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         return cell
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -71,5 +70,19 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         // Pass the selected object to the new view controller.
     }
     */
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell) {
+            let photo = posts[indexPath.row]
+            if let photoDetailsViewController = segue.destination as? PhotoDetailsViewController{
+                photoDetailsViewController.photo = photo
+            }
+        }
+        
+        
+    }
 
 }
