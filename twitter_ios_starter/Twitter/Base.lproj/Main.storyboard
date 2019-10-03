@@ -63,8 +63,8 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gWw-iY-rOK">
-                                            <rect key="frame" x="16" y="11" width="70" height="70"/>
+                                        <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gWw-iY-rOK">
+                                            <rect key="frame" x="16" y="11" width="70" height="72"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="70" id="Kr2-d4-DFz"/>
                                                 <constraint firstAttribute="width" constant="70" id="odd-VZ-4xe"/>
